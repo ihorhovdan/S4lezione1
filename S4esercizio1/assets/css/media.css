@@ -1,0 +1,144 @@
+@media screen and (min-width: 360px) {
+    
+    main {
+        font-size: 1.1rem;
+    }
+    
+    header nav li   {
+        display: inline;
+        padding: 5px;
+    }
+
+    h1 + p {
+        
+        font-size: 1rem;
+    }
+
+    table {
+        margin-right: 50px;
+    }
+
+    iframe {
+        height: 100px;
+    }
+
+    section > h2 {
+        font-size: 1.3rem;
+        background-color: grey;
+        text-transform:none
+    }
+
+    form {
+        max-width: 10px;
+        display: inline;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+    main {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    section {
+        padding-bottom: 40px;
+    }
+
+    section > h2 {
+        font-size: 1.4rem;
+    }
+
+    #user_email {
+        padding-right: 200px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 7px;    
+    }
+
+    @media screen and (min-width: 1250px) {
+        header {
+            max-height: 100px;
+        }
+        
+
+        header > div {
+            display:inline-flex;
+            margin-right: 700px;  
+        }
+        
+        nav > ul {
+            text-align: right;   
+        }
+
+        
+        main {
+            font-size: 1.8rem;
+            padding-bottom: 200px;
+        }
+
+        iframe {
+            height: 300px;
+            width: 50%;
+            
+        }
+
+        section {
+            height: 300px;
+            width: 50%;
+            float: inline-end;
+            border-radius: 20px;
+        }
+        
+        aside {
+            margin-right: 10px;
+        }
+
+        aside > h2 {
+            font-size: 3rem;
+        }
+
+        aside div {
+            float: inline-end;
+            padding-left: 150px;
+            
+            
+        }
+
+        footer {
+            font-size: 2rem;
+            padding-bottom: 40px;
+        }
+
+        address {
+            padding: 0px 200px;
+            line-height: 2;
+        }
+
+    }
+
+
+    
+
+   
+    
+
+
+
+
+
+}
